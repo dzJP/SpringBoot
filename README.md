@@ -1,6 +1,6 @@
 # How to Spring Boot!
 
-<h4><strong><em>Setup</h4></strong></em>
+<h4><strong>Setup</h4></strong>
 
 ```bash
 mkdir folder
@@ -10,7 +10,7 @@ gradle check
 gradle run
 ```
 
-<h4><strong><em>Spring boot startup</h4></strong></em>
+<h4><strong>Spring boot startup</h4></strong>
 
 ```bash
 cd ~
@@ -22,7 +22,7 @@ touch ./app/src/main/resources/static/index.css
 touch ./app/src/main/resources/static/index.js
 ```
 
-<h4><strong><em>vi ./app/build.gradle</h4></strong></em>
+<h4><strong>vi ./app/build.gradle</h4></strong>
 
 ```bash
 plugins {
@@ -47,7 +47,7 @@ tasks.named('test') {
 }
 ```
 
-<h4><strong><em>vi ./app/src/main/java/se/iths/App.java</h4></strong></em>
+<h4><strong>vi ./app/src/main/java/se/iths/App.java</h4></strong>
 
 ```bash
 package se.iths;
@@ -64,7 +64,7 @@ public class App {
 
 }
 ```
-<h4><strong><em>vi ./app/src/test/java/se/iths/AppTest.java</h4></strong></em>
+<h4><strong>vi ./app/src/test/java/se/iths/AppTest.java</h4></strong>
 
 ```bash
 package se.iths;
@@ -79,7 +79,7 @@ class AppTest {
 }
 ```
 
-<h4><strong><em>vi ./app/src/main/resources/static/index.html</h4></strong></em>
+<h4><strong>vi ./app/src/main/resources/static/index.html</h4></strong>
 
 ```bash
 <!DOCTYPE html>
@@ -94,7 +94,7 @@ class AppTest {
 </html>
 ```
 
-<h4><strong><em>Final steps</h4></strong></em>
+<h4><strong>Final steps</h4></strong>
 
 ```bash
 gradle bootRun
